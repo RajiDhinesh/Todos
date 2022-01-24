@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="53.277">
+<testcase classname="todos testing" name="add todos" time="16.139">
+<system-out><![CDATA[Given I launch todomvc......................................................passed
+And I add todos.............................................................passed
+When I Verify the added todos...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="todos testing" name="Complete todos" time="13.546">
+<system-out><![CDATA[Given I launch todomvc......................................................passed
+And I add todos.............................................................passed
+And I mark the completed todos..............................................passed
+When I Verify the competed todos............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="todos testing" name="Delete todos" time="14.232">
+<system-out><![CDATA[Given I launch todomvc......................................................passed
+And I add todos.............................................................passed
+And I delete any of the todos...............................................passed
+When I Verify the item got removed..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="todos testing" name="Filter todos" time="8.601">
+<system-out><![CDATA[Given I launch todomvc......................................................passed
+And I add todos.............................................................passed
+And I mark the completed todos..............................................passed
+When I Verify the filters are working.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
